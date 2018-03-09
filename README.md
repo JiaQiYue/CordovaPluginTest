@@ -1,0 +1,1 @@
+这是cordovaPlugin测试
