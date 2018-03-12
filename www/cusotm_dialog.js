@@ -1,8 +1,8 @@
-var exec = require('cordova/exec');
+// var exec = require('cordova/exec');
 
-exports.coolMethod = function (arg0, success, error) {
-    exec(success, error, 'cusotm_dialog', 'coolMethod', [arg0]);
-};
+// exports.coolMethod = function (arg0, success, error) {
+    // exec(success, error, 'cusotm_dialog', 'coolMethod', [arg0]);
+// };
 //cordova.define("cordova-plugin-dialog.CustomDialog",
     //function(require, exports, module) {
         var exec = require("cordova/exec");
