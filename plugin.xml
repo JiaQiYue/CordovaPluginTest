@@ -20,7 +20,7 @@
 			</feature>
         </config-file>
         <!-- 本地代码，有多个文件就写多个source-file，src对应本项目，target对应安装后的目录 -->
-        <source-file src="src/android/CustomDialog.java" target-dir="src/org/apache/cordova/dialog"/>
+        <source-file src="src/android/CustomDialog.java" target-dir="src/com/jsz/hellocordova"/>
     </platform>
     <!-- 其他平台的代码 -->
 </plugin>
