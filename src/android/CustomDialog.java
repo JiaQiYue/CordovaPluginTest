@@ -24,14 +24,14 @@ public class CustomDialog extends CordovaPlugin {
                 @Override
                 public void onClick(DialogInterface dialogInterface, int i) {
                     dialogInterface.dismiss();
-                    callbackContext.success("点击了确定!");
+                    
                 }
             });
             builder.setNegativeButton("取消", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialogInterface, int i) {
                     dialogInterface.dismiss();
-                    callbackContext.error("点击了取消");
+                   
                 }
             });
             builder.create().show();
